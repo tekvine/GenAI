@@ -194,10 +194,10 @@ st.markdown('---')
 input = st.text_input("You are talking to an AI, ask any question.", key="input", on_change=handle_input)
 
 with st.sidebar:
-    st.subheader("Xnet Threat Models") 
-    st.caption("STRIDE")
-    st.caption("DREAD")
-    st.caption("VAST")
-    st.caption("PASTA")
-    st.caption("OCTAVE")
+    st.subheader("Xnet Sample Prompts") 
+    st.caption("What is a Threat Model")
+    st.caption("Why do we need Threat Model")
+    st.caption("The core steps of threat modeling")
+    st.caption("When to do threat modeling")
+    
  
