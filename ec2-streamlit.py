@@ -124,9 +124,9 @@ instance = ec2.run_instances(
 export DEBIAN_FRONTEND=noninteractive 
 apt update
 apt install awscli python3-pip python3-venv unzip -y
-aws s3 cp s3://genai-devsecops-chatbot-{account_id}/generative-ai-to-build-a-devsecops-chatbot.zip .
-unzip generative-ai-to-build-a-devsecops-chatbot.zip
-cd generative-ai-to-build-a-devsecops-chatbot
+aws s3 cp s3://xnet-chatbot-{account_id}/GenAI.zip .
+unzip GenAI.zip
+cd GenAI
 python3 -m venv .venv
 source .venv/bin/activate
 pip3 install boto3 langchain streamlit
